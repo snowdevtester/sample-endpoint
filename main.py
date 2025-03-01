@@ -28,7 +28,7 @@ def sampleLOAStart():
     report_entry = []
     times = request.args.get('times')
     for i in range(int(times)):
-      if(len(times) == 1):
+      if(len(str(i)) == 1):
         report_entry.append({
         "Manager_s_Network_ID": "incpra00",
         "NTID": f"inwicj0{i}",
